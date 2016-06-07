@@ -1,0 +1,199 @@
+@import url(fontStyle.css);
+@import url(bootstrap.min.css);
+
+body {
+    font-size: 1.2em;
+    font-family: calibri, sans-serif;
+}
+
+ #register-form label.error {
+ color:#FB3A3A;
+ font-weight:bold;
+}
+
+#profile-form label.error {
+	color:#FB3A3A;
+ font-weight:bold;
+}
+
+.UnderConstruction-Image{
+	background-image: url(../images/UnderConstruction.jpg);
+}
+
+.Welcome-Image {
+	background-image: url(../images/NewHomePage.jpg);
+}
+.Contact-Image {
+	background-image: url(../images/Contact.jpg);
+}
+.Register-Image {
+	background-image: url(../images/Register.jpg);
+}
+.LoginBackGround-Image {
+	background-image: url(../images/LoginBackground.jpg);	
+}
+.LoginBackGround-Image2 {
+	background-image: url(../images/LoginBackground.jpg);	
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+.PortfolioBackGround-Image {
+	background-image: url(../images/PortfolioBackGround.jpg);	
+}
+
+.ProfilePage-Image {
+	background-image: url(../images/ProfileBackground.jpg);
+}
+.Search-Image {
+	background-image: url(../images/Search.jpg);
+}
+.Welcome-Image,.Register- Image,.LoginBackGround-Image,
+.Search-Image, .PortfolioBackGround {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;	
+}
+h1 {
+	font-size: 36px;
+	margin-top: 30px;
+	text-align: center;
+}
+h2, p, li { font-family: calibri, sans-serif; }
+
+/* MenuBar - "Home", "Register", "Login", "Help", "Contact Us" */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar .navbar-center {
+  text-align: center;
+}
+.navbar {
+    font-family: Comic Sans MS;
+    font-size: 1.4em;
+}
+.navbar-default {
+    background: none;
+    border: none;
+}
+.nav>li { margin-right: 10px; }
+.nav i {
+    display: block;
+    padding: 15px 0 15px 0;
+}
+.nav .fa { font-size: 2em; }
+.navbar-default .navbar-nav > li > a {
+    color: #e3ccfd;
+    background-color: rgba(0,0,0,0.5);
+    width: 120px;   
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #c0c43c;
+    background-color: rgba(0,0,0,0.5);
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+    color: #c0c43c;
+    background-color: rgba(0,0,0,0.5);
+}
+.active { display: block; }
+
+/*Login Page - Icons for UserName and Password */
+.Input_Icons { position: relative; }
+.Input_Icons .fa {
+	color: #800040;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+.Input_Icons input, 
+.Input_Icons textarea {
+	padding-left: 30px;
+}
+
+/* Form Design */
+.FormDesign {
+	background-color: rgba(15,15,15,0.25);
+	color: #ffff80;
+	font-size: 15px;
+	max-width: 650px;
+	padding: 0 30px 30px 30px;
+	margin: 30px auto 0 auto;
+}
+.FormDesign h1 { color: #b0d827; margin-bottom: 40px; }
+.FormDesign .btn {	color: #ffffff; width: 100%}
+.FormDesign label { font-weight: 400;}
+.FormDesign .BorderLine { border-right: 1px solid rgba(200, 200, 200, 0.5); }
+
+.SearchDesign {
+	background-color: rgba(15,15,15,0.25);
+	color: #7FFFD4;
+	font-weight: 500;
+	max-width: 750px;
+	padding: 0 20px 20px 20px;
+	margin: 20px auto 0 auto;
+}
+.SearchDesign s {
+    border-style: solid;
+    border-color: #c1f28c;
+}
+.SearchDesign h1 { color: #7FFFD4;}
+.SearchDesign h2 { color: #7FFFD4;}
+.SearchDesign .btn {color: #7FFFD4;}
+.SearchDesign label { font-weight: 500; }
+.SearchDesign .BorderLine { border-right: 2px solid rgba(255, 255, 255, 0.5); }
+
+
+.PortfolioDesign {
+	position: absolute;
+	left: -75px;
+	top: 100px;
+	background-color: rgba(15,15,15,0.25);
+	color: #c1f28c;
+	font-weight: 700;
+	max-width: 950px;
+	padding: 0 20px 20px 20px;
+	margin: 0 auto 0 auto;
+}
+.ProtfolioDesign p {
+    border-style: solid;
+    border-color: #c1f28c;
+}
+.PortfolioDesign h1 { color: #ffff80;}
+.PortfolioDesign h2 { color: #ffff80;}
+.PortfolioDesign .btn {	color: #ffffff;}
+.PortfolioDesign label { font-weight: 400; }
+.PortfolioDesign .BorderLine { border-right: 2px solid rgba(255, 255, 255, 0.5); }
+
+.PortfolioRightSideDesign {
+	position: relative;
+    left: 450px;
+    top: 100px;
+	background-color: rgba(15,15,15,0.25);
+	color: #c1f28c;
+	font-weight: 700;
+	max-width: 300px;
+	height: 385px;
+	padding: 0 20px 20px 20px;
+	margin: 0 auto 0 auto;
+}
+
+.SearchDesign {
+	background-color: rgba(15,15,15,0.25);
+	color: #7FFFD4;
+	font-weight: 500;
+	max-width: 750px;
+	padding: 0 20px 20px 20px;
+	margin: 20px auto 0 auto;
+}
+.SearchDesign s {
+    border-style: solid;
+    border-color: #c1f28c;
+}
+.SearchDesign h1 { color: #7FFFD4;}
+.SearchDesign h2 { color: #7FFFD4;}
+.SearchDesign .btn {color: #7FFFD4;}
+.SearchDesign label { font-weight: 500; }
+.SearchDesign .BorderLine { border-right: 2px solid rgba(255, 255, 255, 0.5); }
+
+
+/* Note: We use this link as a reference: http://www.templatemo.com */
